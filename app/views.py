@@ -1,7 +1,9 @@
 from django.shortcuts import render
+from datetime import datetime
 
 # Create your views here.
 
 
 def index(request):
-    return render(request, "index.html")
+    context = {"year": datetime.now().year}
+    return render(request, "index.html", context)
