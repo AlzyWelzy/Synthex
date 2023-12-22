@@ -342,7 +342,7 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 0.5rem;
   justify-content: space-around;
 }
 
@@ -434,3 +434,27 @@ footer {
 footer p {
   text-align: center;
 }
+
+.skills {
+  padding: 1rem 1.5rem;
+  background-color: gray;
+  border-radius: 0.75rem;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 70px;
+  background-color: #f1f5f9;
+  font-weight: 900;
+  color: rgb(85, 85, 85);
+}
+
+.article-container article div {
+  width: 100%;
+  text-align: center;
+}
+/*
+#experience {
+  height: 65vh;
+}
+
+#about {
+  height: 75vh;
+} */
