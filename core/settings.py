@@ -14,7 +14,7 @@ from pathlib import Path
 
 import ast
 
-from dotenv import dotenv_values, load_dotenv
+from dotenv import load_dotenv
 import os
 
 load_dotenv()
@@ -135,7 +135,7 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 
-STATIC_ROOT = BASE_DIR / "public/staticfiles"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 STATICFILES_DIRS = [
     BASE_DIR / "public/static",
